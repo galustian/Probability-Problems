@@ -1,2 +1,2 @@
 # Probability-Problems
-Simulation of famous probability-problems.
+Simulation of famous probability-problems & paradoxes.
