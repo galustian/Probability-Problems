@@ -5,7 +5,7 @@
 
 using namespace std;
 
-const unsigned long kSimulations = 100000000;
+const unsigned long kSimulations = 100000;
 
 int main() {
     random_device rd;
@@ -26,8 +26,9 @@ int main() {
             
             if (heads == 1) {
                 total_win += pow(2, nth_flip);
-            } else if (heads == 0 && nth_flip > 1) {
+            } else if (heads == 0) {
                 long last_flip_win = pow(2, nth_flip-1);
+                if (nth_flip-1 == 0) last_flip_win = 0;
                 
                 // append win to win_list
                 if (win_list.count(last_flip_win) > 0) {
