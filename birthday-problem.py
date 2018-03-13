@@ -2,8 +2,6 @@ import numpy as np
 import sys
 
 def simulate(people, n_same_bd):    
-    sample_people = np.random.randint(1, 366, size=(int(people)))
-
     ''' CUSTOM ALGORITHM
 
     for X in range(len(sample_people)):
@@ -16,6 +14,8 @@ def simulate(people, n_same_bd):
                 return 1
     return 0
     '''
+    
+    sample_people = np.random.randint(1, 366, size=(int(people)))
 
     if np.max(np.bincount(sample_people)) >= n_same_bd:
         return 1
