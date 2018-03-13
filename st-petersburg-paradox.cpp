@@ -5,7 +5,7 @@
 
 using namespace std;
 
-const unsigned long kSimulations = 100000;
+const unsigned long kSimulations = 10000000;
 
 int main() {
     random_device rd;
