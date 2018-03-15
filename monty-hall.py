@@ -40,30 +40,3 @@ for strategy in ['stay', 'switch']:
     print("Expected car winning with", strategy, "strategy:", expected_car_winning)
 
 print("\nYou see... Switching is always better. This can be proven either by thinking logically, simulation or LOTP (law of total probability) with extra conditioning.")
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
