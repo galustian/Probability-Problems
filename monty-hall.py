@@ -3,7 +3,7 @@ import numpy as np
 # Parameters
 n_simulations = 100000
 
-n_doors = 3
+n_doors = 36
 n_open_doors = 1
 
 if n_open_doors+1 >= n_doors:
@@ -39,4 +39,4 @@ for strategy in ['stay', 'switch']:
     expected_car_winning = won_car / n_simulations
     print("Expected car winning with", strategy, "strategy:", expected_car_winning)
 
-print("\nYou see... Switching is always better. This can be proven either by thinking logically, simulation or LOTP (law of total probability) with extra conditioning.")
+print("\nYou see... Switching is always better. This can be proven either by thinking logically, simulation or LOTP (law of total probability).")
