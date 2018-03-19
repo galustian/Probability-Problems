@@ -9,7 +9,7 @@
 using namespace std;
 
 const long kSimulations = 600000; // num. simulations in each thread
-const long kThreads = 1000; // simulate on num. threads
+const long kThreads = 100; // simulate on num. threads
 
 // Shared Data of Threads
 mutex mutex_expected_wins;
