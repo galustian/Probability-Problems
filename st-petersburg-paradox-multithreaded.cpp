@@ -17,7 +17,6 @@ mutex mutex_win_list;
 vector<double> thread_expected_wins;
 map<long, long> win_list;
 
-
 double simulate() {
     random_device rd;
     mt19937 gen(rd());  // Standard mersenne_twister_engine seeded with rd()
